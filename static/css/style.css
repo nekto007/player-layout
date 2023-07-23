@@ -1,0 +1,32 @@
+.player {
+  width: 800px;
+  height: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.video-container {
+  flex-grow: 1;
+}
+
+.button_panel {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  line-height: 42px;
+}
+
+.player-button {
+  width: 38px;
+  font-size: 20px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  padding: 0 6px 2px;
+}
+
+.play-button {
+  width: 36px;
+}
