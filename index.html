@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -8,20 +8,21 @@
     <script src="player.js"></script>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/font-awesome.min.css">
-</head>
-<body>
-  <div id="player" class="player">
-    <div class="js-video-container video-container"></div>
-    <div class="button_panel">
-      <button class="js-play-button player-button play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
-      <button class="js-pause-button player-button play-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
-      <button class="js-volume-button player-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
-      <button class="js-mute-button player-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-
+  </head>
+  <body>
+    <div id="player" class="player">
+      <div class="js-video-container video-container"></div>
+      <div class="button_panel">
+        <button class="js-play-button player-button play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
+        <button class="js-pause-button player-button play-button" hidden><i class="fa fa-pause" aria-hidden="true"></i></button>
+        <button class="js-volume-button player-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+        <button class="js-mute-button player-button" hidden><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+        <div class="video-container"></div>
+        <button class="js-fullscreen-button player-button"><i class="fa fa-arrows-alt" aria-hidden="true"></i></i></button>
+      </div>
     </div>
-  </div>
-  <script type="text/javascript">
-    createPlayer({elementId: 'player'});
-  </script>
-</body>
+    <script type="text/javascript">
+      createPlayer({elementId: 'player'});
+    </script>
+  </body>
 </html>
