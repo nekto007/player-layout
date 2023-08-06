@@ -18,15 +18,20 @@
 }
 
 .player-button {
-  width: 38px;
+  width: 35px;
+  height: 35px;
   font-size: 20px;
   border-style: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
-  padding: 0 6px 2px;
+  /*padding: 0 6px 2px;*/
 }
 
 .play-button {
   width: 36px;
+}
+
+.progress {
+  flex-grow: 1;
 }
